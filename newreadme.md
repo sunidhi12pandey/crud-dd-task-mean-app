@@ -7,6 +7,7 @@ As a DevOps engineer, I have implemented **Dockerfiles**, **Docker Compose**, an
 ---
 
 ## Project Structure
+```
 .
 ├── backend/
 │ └── Dockerfile # Dockerfile for Node.js backend
@@ -16,7 +17,7 @@ As a DevOps engineer, I have implemented **Dockerfiles**, **Docker Compose**, an
 └── .github/
 └── workflows/
 └── build_and_test.yml # GitHub Actions CI/CD pipeline
-
+```
 
 ---
 
@@ -56,8 +57,6 @@ docker-compose up --build
 docker-compose down
 ```
 
----
-
 ## Author
 
 **Sunidhi Pandey** – DevOps Engineer
@@ -66,4 +65,3 @@ docker-compose down
 * Created Docker Compose orchestration.
 * Implemented GitHub Actions CI/CD pipeline for automated build, test, and deployment.
 
-```
