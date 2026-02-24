@@ -58,11 +58,11 @@ jobs:
       - name: Check Running Containers
         run: docker ps
 
-      - name: Test Backend
-        run: curl --fail http://localhost:5000
-
       - name: Test Frontend
-        run: curl --fail http://localhost:4200
+        run: curl  http://localhost:80
+
+      - name: Test Backend
+        run: curl  http://localhost:5000
 
       - name: Shutdown Containers
         if: always()
