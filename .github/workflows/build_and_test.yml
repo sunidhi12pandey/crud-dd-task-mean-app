@@ -45,7 +45,10 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
+      
+      - name: install docker compose
+        run: apt install docker-compose -y
+        
       - name: Build & Start Containers
         run: docker-compose up -d --build
 
