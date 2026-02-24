@@ -62,7 +62,7 @@ jobs:
         run: curl  http://localhost:80
 
       - name: Test Backend
-        run: curl  http://localhost:5000
+        run: curl  http://localhost:8080
 
       - name: Shutdown Containers
         if: always()
